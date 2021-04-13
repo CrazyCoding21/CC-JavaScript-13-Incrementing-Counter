@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: url(../images/img-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.counter-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+.counter{
+    font-size: 60px;
+    margin-top: 10px;
+}
